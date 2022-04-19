@@ -7,9 +7,9 @@ Color primaryColor = Color(0xff5ECF78);
 Color secondaryColor = Color(0xff00B4D8);
 Color backgroundColor = Color(0xffffffff);
 Color textPrimaryColor = Color(0xff393E46);
-Color textSubtitleLoginColor = Color(0xff7D7D7D);
 Color inputFormColor = Color(0xff7D7D7D);
 Color inputTextColor = Color(0xff979797);
+Color inputTextColor2 = Color(0xfff4f4f4);
 Color inputCodeOTP = Color(0xffEBEBEB);
 
 TextStyle primaryTextStyle = GoogleFonts.kanit(
@@ -21,11 +21,19 @@ TextStyle secondaryTextColor = GoogleFonts.kanit(
 );
 
 TextStyle textSubtitleLogin = GoogleFonts.kanit(
-  color: textSubtitleLoginColor
+  color: inputFormColor
 );
 
 TextStyle textPrimaryStyle = GoogleFonts.kanit(
   color: textPrimaryColor
+);
+
+TextStyle textInputStyle = GoogleFonts.kanit(
+  color: inputTextColor
+);
+
+TextStyle whiteTextStyle = GoogleFonts.kanit(
+  color:  backgroundColor
 );
 
 FontWeight reguler = FontWeight.w400;
