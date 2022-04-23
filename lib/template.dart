@@ -10,6 +10,7 @@ Color textPrimaryColor = Color(0xff393E46);
 Color inputFormColor = Color(0xff7D7D7D);
 Color inputTextColor = Color(0xff979797);
 Color inputTextColor2 = Color(0xfff4f4f4);
+Color searchColor = Color(0xfff5f5f5);
 Color inputCodeOTP = Color(0xffEBEBEB);
 
 TextStyle primaryTextStyle = GoogleFonts.kanit(
