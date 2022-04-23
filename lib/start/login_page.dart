@@ -1,3 +1,4 @@
+import 'package:biolink_klinik_app/home/home_page.dart';
 import 'package:biolink_klinik_app/start/register_page.dart';
 import 'package:biolink_klinik_app/template.dart';
 import 'package:flutter/material.dart';
@@ -123,7 +124,13 @@ class _LoginPageState extends State<LoginPage> {
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12), color: primaryColor),
             child: TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => HomePage()),
+                      );
+              },
               child: Text(
                 'Masuk',
                 style:
